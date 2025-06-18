@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tns="http://tempuri.org/"
+           targetNamespace="http://tempuri.org/"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified">
+
+  <xs:element name="AddResponse" type="tns:AddResponseType"/>
+  <xs:complexType name="AddResponseType">
+    <xs:sequence>
+      <xs:element name="AddResult" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

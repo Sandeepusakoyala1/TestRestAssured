@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope
+	xmlns:bwin="http://bwin.service.userprofile.mds.services.partygaming.com"
+	xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:xsd="http://b2b.userprofile.mds.services.partygaming.com/xsd"
+	xmlns:xsd1="http://api.userprofile.mds.services.partygaming.com/xsd"
+	xmlns:xsd2="http://beans.api.userprofile.mds.services.partygaming.com/xsd">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<bwin:createRegisterAccount>
+			<!--Optional: -->
+			<bwin:registerAccountRequest>
+				<!--Optional: -->
+				<xsd:accountCurrency>EUR</xsd:accountCurrency>
+				<!--Optional: -->
+				<xsd:accountName/>
+				<!--Optional: -->
+				<xsd:address>Hill Barn, Little Rissington</xsd:address>
+				<!--Optional: -->
+				<xsd:address2/>
+				<!--Optional: -->
+				<xsd:bTag/>
+				<!--Optional: -->
+				<xsd:birthCity>birth city</xsd:birthCity>
+				<!--Optional: -->
+				<xsd:birthCountry/>
+				<!--Optional: -->
+				<xsd:birthState/>
+				<!--Optional: -->
+				<xsd:bonusCode/>
+				<!--Optional: -->
+				<xsd:bonusTncAccpeted>true</xsd:bonusTncAccpeted>
+				<!--Optional: -->
+				<xsd:brandId>BWINCOM</xsd:brandId>
+				<!--Optional: -->
+				<xsd:cashId/>
+				<!--Optional: -->
+				<xsd:channelId>WC</xsd:channelId>
+				<!--Optional: -->
+				<xsd:city>city</xsd:city>
+				<!--Zero or more repetitions: -->
+				<!--Optional: -->
+				<xsd:commonCommunicationsList>
+					<xsd:communicationName>Email</xsd:communicationName>
+					<xsd:unSubscribed>false</xsd:unSubscribed>
+				</xsd:commonCommunicationsList>
+				<xsd:commonCommunicationsList>
+					<xsd:communicationName>Phone</xsd:communicationName>
+					<xsd:unSubscribed>true</xsd:unSubscribed>
+				</xsd:commonCommunicationsList>
+				<xsd:country>GI</xsd:country>
+				<!--Optional: -->
+				<xsd:dateofBirth>17-05-2000</xsd:dateofBirth>
+				<!--Zero or more repetitions: -->
+				<xsd:loginLimitsRequest>
+					<!--Optional: -->
+					<xsd1:limitType>?</xsd1:limitType>
+					<!--Optional: -->
+					<xsd1:limitValue>?</xsd1:limitValue>
+				</xsd:loginLimitsRequest>
+				<!--Optional: -->
+				<xsd:autoPayoutLimitRequest>
+					<xsd1:limitType>?</xsd1:limitType>
+					<xsd1:limitValue>?</xsd1:limitValue>
+				</xsd:autoPayoutLimitRequest>
+				<!--Optional: -->
+				<!--Optional: -->
+				<!--Optional: -->
+				<xsd:email>yeiueuee@yopmail.com</xsd:email>
+				<!--Optional: -->
+				<xsd:encodedSSOKey/>
+				<!--Optional: -->
+				<xsd:event/>
+				<!--Optional: -->
+				<xsd:finalStep>false</xsd:finalStep>
+				<!--Optional: -->
+				<xsd:firstName>TestFNTvtB</xsd:firstName>
+				<!--Optional: -->
+				<xsd:formName/>
+				<!--Optional: -->
+				<xsd:frontEndId>bz</xsd:frontEndId>
+				<!--Optional: -->
+				<xsd:geoRestrcitionOverride>N</xsd:geoRestrcitionOverride>
+				<!--Optional: -->
+				<xsd:idCardNumber>373442132</xsd:idCardNumber>
+				<!--Optional: -->
+				<xsd:idCardValidFrom/>
+				<!--Optional: -->
+				<xsd:idCardValidUntil/>
+				<!--Optional: -->
+				<xsd:idIssuerCountry/>
+				<!--Optional: -->
+				<xsd:igaStatus/>
+				<!--Optional: -->
+				<xsd:invID/>
+				<!--Optional: -->
+				<xsd:ip>10.151.147.111</xsd:ip>
+				<!--Optional: -->
+				<xsd:isCr>Y</xsd:isCr>
+				<!--Optional: -->
+				<xsd:langId>en_US</xsd:langId>
+				<!--Optional: -->
+				<xsd:lastName>TestLNTvtB</xsd:lastName>
+				<!--Optional: -->
+				<xsd:maidenName>TvtB</xsd:maidenName>
+				<!--Optional: -->
+				<xsd:middleName/>
+				<!--Optional: -->
+				<xsd:mobileCountryCode>91</xsd:mobileCountryCode>
+				<!--Optional: -->
+				<xsd:mobileNumber>9014196821</xsd:mobileNumber>
+				<!--Optional: -->
+				<xsd:nationality>GI</xsd:nationality>
+				<!--Optional: -->
+				<xsd:newRequest>false</xsd:newRequest>
+				<!--Optional: -->
+				<xsd:optedFlag>0</xsd:optedFlag>
+				<!--Optional: -->
+				<xsd:otpStatus>false</xsd:otpStatus>
+				<!--Optional: -->
+				<xsd:passWord>Password@123</xsd:passWord>
+				<!--Optional: -->
+				<xsd:passportNumber/>
+				<!--Optional: -->
+				<xsd:path/>
+				<!--Optional: -->
+				<xsd:phoneCountryCode/>
+				<!--Optional: -->
+				<xsd:phoneNumber/>
+				<!--Optional: -->
+				<xsd:productId>SPORTSBOOK</xsd:productId>
+				<!--Optional: -->
+				<xsd:profession/>
+				<!--Optional: -->
+				<xsd:promoID/>
+				<!--Optional: -->
+				<xsd:registrationType>FULL</xsd:registrationType>
+				<!--Optional: -->
+				<xsd:removeRGLimits>false</xsd:removeRGLimits>
+				<!--Zero or more repetitions: -->
+				<!--Optional: -->
+				<xsd:requestData>
+					<xsd:key>tdpeh</xsd:key>
+					<xsd:value></xsd:value>
+				</xsd:requestData>
+				<xsd:requestData>
+					<xsd:key>bTag</xsd:key>
+					<xsd:value></xsd:value>
+				</xsd:requestData>
+				<xsd:secondLastname>TvtB</xsd:secondLastname>
+				<!--Optional: -->
+				<xsd:securityAnswer/>
+				<!--Optional: -->
+				<xsd:securityAnswer2/>
+				<!--Optional: -->
+				<xsd:securityQuesitonId/>
+				<!--Optional: -->
+				<xsd:securityQuesitonId2/>
+				<!--Optional: -->
+				<xsd:sex>M</xsd:sex>
+				<!--Optional: -->
+				<xsd:ssn/>
+				<!--Optional: -->
+				<xsd:state>aaa</xsd:state>
+				<!--Optional: -->
+				<xsd:step>0</xsd:step>
+				<!--Optional: -->
+				<xsd:subChannelId>MS2</xsd:subChannelId>
+				<!--Optional: -->
+				<xsd:taxDomicile/>
+				<!--Optional: -->
+				<xsd:title>Mr</xsd:title>
+				<!--Optional: -->
+				<xsd:tnCAccepted>true</xsd:tnCAccepted>
+				<!--Optional: -->
+				<xsd:typeOfIdentity/>
+				<!--Optional: -->
+				<xsd:userId>Sdetnewreg01</xsd:userId>
+				<!--Optional: -->
+				<xsd:userTimeZone>GMT Standard Time</xsd:userTimeZone>
+				<!--Optional: -->
+				<xsd:voucherCode/>
+				<!--Optional: -->
+				<xsd:webmasterId>8889799</xsd:webmasterId>
+				<!--Optional: -->
+				<xsd:wlipStatus>Verified</xsd:wlipStatus>
+				<!--Optional: -->
+				<xsd:zip>12345</xsd:zip>
+				<!--Optional: -->
+				<xsd:zoneId/>
+			</bwin:registerAccountRequest>
+		</bwin:createRegisterAccount>
+	</soapenv:Body>
+</soapenv:Envelope>
